@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  /* border: solid red; */
 }
 
 .content-1 {
@@ -19,7 +20,7 @@
   color: #FFFFFF;
   }
 
-.content-1 {
+.content-2 {
   font-family: adobe-caslon-pro;
   font-size: 24px;
   font-style: italic;
@@ -35,16 +36,33 @@
   font-size: 59px;
   font-style: normal;
   font-weight: bold;
-  letter-spacing: 11px;
+  letter-spacing: 5px;
   line-height: 70px;
   text-transform: uppercase;
   color: #FFFFFF;
   }
 
-  /* @media screen and (min-width: 1200px) {
-    
+  @media screen and (min-width: 2000px) {
+    .header-1 {
+      letter-spacing: 10px;
+    }
   }
 
-  @media screen and (min-width: 650px) {
-    
-  } */
+  @media screen and (max-width: 1200px) {
+    .header-1 {
+      font-size: 50px;
+      line-height: 60px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .header-1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    .content-2 {
+      font-size: 20px !important;
+      line-height: 24px;
+    }
+  }

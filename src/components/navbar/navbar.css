@@ -1,4 +1,5 @@
 .app__navbar {
+  position: relative;
   display: flex;
   flex-direction: row;
   padding: 2rem 6rem;
@@ -7,8 +8,7 @@
 
 .app__navbar-mynmae {
   display: flex;
-  margin-right: 4rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .app__navbar-mynmae a{
@@ -17,6 +17,7 @@
 }
 
 .app__navbar-links {
+  position: relative;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -36,11 +37,52 @@
   gap: 1rem;
   background-color: darkgray;
   padding: 1rem;
+  position: absolute;
+  right: 90px;
+  top: 90px;
 }
 
-@media screen and (min-width: 1200px) {
+.app__navbar-smallscreen_links a {
+  text-decoration: none;
+  font-size: 30px;
+}
 
+.app__navbar-smallscreen_menu {
+  margin-top: 1.5rem;
+}
+
+.app__navbar-smallscreen {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .app__navbar-links {
+    display: none;
+  }
   .app__navbar-smallscreen {
     display: flex;
+    flex-direction: column;
+  }
+
+  .app__navbar-mynmae {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__navbar {
+    padding: 2rem 2rem;
+  }
+  .app__navbar-mynmae a{
+    margin-right: 2rem;
+  }
+
+  .app__navbar-smallscreen_links {
+    right: 25px;
+    top: 75px;
+  }
+
+  .app__navbar-smallscreen_menu {
+    margin-top: 0.5rem;
   }
 }
