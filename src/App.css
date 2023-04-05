@@ -1,21 +1,33 @@
 :root {
-  background-color: gray;
+  --color-golden: #DCCA87;
+  --color-gray: #545454;
+  --color-lightgrey: #AAAAAA;
 }
 
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  background-color: gray;
   /* border: solid red; */
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
 }
 
 .content-1 {
   font-family: brandon-grotesque, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 2px;
-  line-height: 12px;
+  line-height: 24px;
   text-transform: uppercase;
   color: #FFFFFF;
   }
@@ -40,6 +52,38 @@
   line-height: 70px;
   text-transform: uppercase;
   color: #FFFFFF;
+  }
+
+  .header-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+
+  .paragraph-1 {
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  .custom__button {
+    background-color: #F5EFDB;
+    color: #0C0C0C;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
   }
 
   @media screen and (min-width: 2000px) {

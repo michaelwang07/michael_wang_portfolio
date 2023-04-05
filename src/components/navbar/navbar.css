@@ -12,7 +12,6 @@
 }
 
 .app__navbar-mynmae a{
-  text-decoration: none;
   margin-right: 4rem;
 }
 
@@ -26,7 +25,6 @@
 }
 
 .app__navbar-links a {
-  text-decoration: none;
   font-size: 30px;
 }
 
@@ -34,12 +32,21 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  align-items: flex-end;
   gap: 1rem;
   background-color: darkgray;
-  padding: 1rem;
+  padding: 1.5rem;
   position: absolute;
   right: 90px;
   top: 90px;
+}
+
+.app__navbar-smallscreen_links li {
+  background-color: darkgray;
+}
+
+.app__navbar-smallscreen_links li a {
+  background-color: darkgray;
 }
 
 .app__navbar-smallscreen_links a {

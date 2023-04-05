@@ -1,0 +1,7 @@
+.app__websites-image {
+  max-width: 50vw;
+}
+
+.app__websites-image img {
+  width: 100%;
+}

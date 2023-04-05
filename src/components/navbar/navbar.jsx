@@ -37,7 +37,7 @@ const navbar = () => {
           }} />
         </div>
         {toggleMenu && (
-          <ul className='app__navbar-smallscreen_links'>
+        <ul className='app__navbar-smallscreen_links'>
           <li>
             <a href="#home" className='content-2'>Home</a>
           </li>
