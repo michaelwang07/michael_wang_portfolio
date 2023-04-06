@@ -1,0 +1,9 @@
+.app__enthusiam {
+  background-color: var(--color-gray);
+}
+
+.app__enthusiam-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

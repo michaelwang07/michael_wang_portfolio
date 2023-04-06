@@ -1,14 +1,16 @@
 :root {
   --color-golden: #DCCA87;
+  --color-darkgray:  #222831;
   --color-gray: #545454;
-  --color-lightgrey: #AAAAAA;
+  --color-lightgray: #AAAAAA;
+  --color-smoke: #eeeeee; 
+  --color-lightblue: #0092ca;
 }
 
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  background-color: gray;
   /* border: solid red; */
 }
 
@@ -19,6 +21,7 @@ a {
 
 .section__padding {
   padding: 4rem 6rem;
+  min-height: 55vh;
 }
 
 .content-1 {
@@ -26,7 +29,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 24px;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -60,7 +63,7 @@ a {
     font-size: 60px;
     line-height: 75px;
     letter-spacing: 2px;
-    color: #FFFFFF;
+    color: var(--color-golden);
   }
 
   .paragraph-1 {
@@ -100,9 +103,18 @@ a {
   }
 
   @media screen and (max-width: 650px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+
     .header-1 {
       font-size: 36px;
       line-height: 48px;
+    }
+
+    .header-2 {
+      font-size: 44px;
+      line-height: 50px;
     }
 
     .content-2 {

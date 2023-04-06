@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbar.css'
-import {HiOutlineMenu} from 'react-icons/hi'
+import {HiOutlineMenu, HiOutlineMail} from 'react-icons/hi'
+import {BsLinkedin} from 'react-icons/bs'
 
 const navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(true);
@@ -25,7 +26,22 @@ const navbar = () => {
         <li>
           <a href="#contact" className='content-2'>Contact</a>
         </li>
+        <li>
+          <div className='app__navbar-socialmedia'>
+            <div className='app__navbar-socialmedia_email'>
+              <a href="mailto:michaelwangcodex@gmail.com">
+                <HiOutlineMail />
+              </a>
+            </div>
+            <div className='app__navbar-socialmedia_linkedin'>
+              <a href="https://www.linkedin.com/in/michael-wang-programming/">
+                <BsLinkedin />
+              </a>
+            </div>
+          </div>
+        </li>
       </ul>
+
       <div className='app__navbar-smallscreen'>
         <div className='app__navbar-smallscreen_menu'>
           <HiOutlineMenu fontSize={30} className='menu' onClick={() => {
