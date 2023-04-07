@@ -1,0 +1,14 @@
+.app__footer { 
+  background-color: var(--color-lightgray);
+  padding: 6rem 6rem;
+}
+
+.app__footer-top {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.app__footer-top div {
+  max-width: 20vw;
+}

@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer/footer'
 import Enthusiasm from './components/enthusiasm/enthusiasm'
 import Intro from './components/intro/Intro'
 import Navbar from './components/navbar/navbar'
@@ -11,6 +12,7 @@ const App = () => {
       <Intro />
       <Websites />
       <Enthusiasm />
+      <Footer />
     </div>
   )
 }
