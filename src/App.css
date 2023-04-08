@@ -57,68 +57,68 @@ a {
   color: #FFFFFF;
   }
 
+.header-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 2px;
+  color: var(--color-golden);
+}
+
+.paragraph-1 {
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.custom__button {
+  background-color: #F5EFDB;
+  color: #0C0C0C;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+  .header-1 {
+    letter-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .header-1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
   .header-2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 75px;
-    letter-spacing: 2px;
-    color: var(--color-golden);
+    font-size: 44px;
+    line-height: 50px;
   }
 
-  .paragraph-1 {
-    font-family: 'Lora', serif;
-    letter-spacing: 1px;
-    font-size: 20px;
-    line-height: 28px;
-    color: #FFFFFF;
+  .content-2 {
+    font-size: 20px !important;
+    line-height: 24px;
   }
-
-  .custom__button {
-    background-color: #F5EFDB;
-    color: #0C0C0C;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-
-  @media screen and (min-width: 2000px) {
-    .header-1 {
-      letter-spacing: 10px;
-    }
-  }
-
-  @media screen and (max-width: 1200px) {
-    .header-1 {
-      font-size: 50px;
-      line-height: 60px;
-    }
-  }
-
-  @media screen and (max-width: 650px) {
-    .section__padding {
-      padding: 4rem 2rem;
-    }
-
-    .header-1 {
-      font-size: 36px;
-      line-height: 48px;
-    }
-
-    .header-2 {
-      font-size: 44px;
-      line-height: 50px;
-    }
-
-    .content-2 {
-      font-size: 20px !important;
-      line-height: 24px;
-    }
-  }
+}
