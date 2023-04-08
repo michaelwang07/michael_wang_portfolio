@@ -27,6 +27,11 @@
 
 .app__navbar-links a {
   font-size: 30px;
+  transition: 0.5s ease;
+}
+
+.app__navbar-links a:hover {
+  color: var(--color-golden);
 }
 
 .app__navbar-socialmedia {
@@ -60,6 +65,10 @@
 
 .app__navbar-smallscreen_links li a {
   background-color: darkgray;
+}
+
+.app__navbar-smallscreen_links li a:hover {
+  border-bottom: 2px solid #eeeeee;
 }
 
 .app__navbar-smallscreen_links a {

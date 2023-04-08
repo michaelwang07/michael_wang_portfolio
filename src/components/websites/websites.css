@@ -48,7 +48,7 @@
 }
 
 .app__websites-links h4:hover {
-  color: var(--color-darkgray);
+  color: black;
 }
 
 .app__websites-links_image {
