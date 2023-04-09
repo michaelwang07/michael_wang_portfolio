@@ -1,20 +1,16 @@
-import './App.css'
-import Footer from './components/Footer/footer'
-import Enthusiasm from './components/enthusiasm/enthusiasm'
-import Intro from './components/intro/Intro'
-import Navbar from './components/navbar/navbar'
-import Websites from './components/websites/websites'
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Intro />
-      <Websites />
-      <Enthusiasm />
-      <Footer />
-    </div>
-  )
-}
+// import Homepage from './pages/Homepage'
 
-export default App
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route exact path="/" render={() => <Homepage/>} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App
