@@ -15,10 +15,10 @@ const navbar = () => {
       </div>
       <ul className='app__navbar-links'>
         <li>
-          <a href="#home" className='content-2'>Home</a>
+          <a href="/" className='content-2'>Home</a>
         </li>
         <li>
-          <a href="#about" className='content-2'>About</a>
+          <a href="/about" className='content-2'>About</a>
         </li>
         <li>
           <a href="#resume" className='content-2'>Resume</a>
@@ -55,10 +55,10 @@ const navbar = () => {
         {toggleMenu && (
         <ul className='app__navbar-smallscreen_links'>
           <li>
-            <a href="#home" className='content-2'>Home</a>
+            <a href="/" className='content-2'>Home</a>
           </li>
           <li>
-            <a href="#about" className='content-2'>About</a>
+            <a href="/about" className='content-2'>About</a>
           </li>
           <li>
             <a href="#resume" className='content-2'>Resume</a>

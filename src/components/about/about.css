@@ -1,0 +1,11 @@
+.app__about{
+  padding: 4rem 6rem;
+  background-color: var(--color-gray);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.app__about h2{
+  font-size: 26px;
+}

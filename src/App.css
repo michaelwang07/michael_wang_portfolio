@@ -74,6 +74,14 @@ a {
   color: #FFFFFF;
 }
 
+.paragraph-2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
 .custom__button {
   color: #383838;
   background-color: #fff;
