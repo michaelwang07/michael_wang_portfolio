@@ -17,13 +17,17 @@ const Websites = () => {
         <div className='app__websites-links_finedine'>
           <a href="https://michaelwang07.github.io/fine_dining_react/" className='content-2' ><h4>Fine Dining</h4></a>
           <div className='app__websites-links_image'>
-            <a href="https://michaelwang07.github.io/fine_dining_react/"><img src={Fine_Dining} alt="" /></a>
+            <a href="https://michaelwang07.github.io/fine_dining_react/"><img src={Fine_Dining} alt="" />
+            <p class="centered">view</p>
+            </a>
           </div>
         </div>
         <div className='app__websites-links_chatgpt'>
           <a href="https://michaelwang07.github.io/react_app_one/" className='content-2' ><h4>Chat GPT</h4></a>
           <div className='app__websites-links_image'>
-            <a href="https://michaelwang07.github.io/react_app_one/"><img src={GPT} alt="" /></a>
+            <a href="https://michaelwang07.github.io/react_app_one/"><img src={GPT} alt="" />
+            <p class="centered">view</p>
+            </a>
           </div>
         </div>
       </div>

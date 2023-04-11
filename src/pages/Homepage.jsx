@@ -1,5 +1,5 @@
 import React from 'react';
-import "../App.css"
+import '../App.css'
 import Footer from '../components/Footer/footer'
 import Enthusiasm from '../components/enthusiasm/enthusiasm'
 import Intro from '../components/intro/Intro'

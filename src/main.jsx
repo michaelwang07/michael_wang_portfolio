@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homepage from './pages/homepage';
-import App from './App';
+import Homepage from './pages/Homepage';
+import About from './pages/About';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <App />,
+    element: <About />,
   },
 ]);
 
