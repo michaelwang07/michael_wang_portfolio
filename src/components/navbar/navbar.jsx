@@ -21,10 +21,10 @@ const navbar = () => {
           <a href="/about" className='content-2'>About</a>
         </li>
         <li>
-          <a href="#resume" className='content-2'>Resume</a>
+          <a href="/resume" className='content-2'>Resume</a>
         </li>
         <li>
-          <a href="#contact" className='content-2'>Contact</a>
+          <a href="/contact" className='content-2'>Contact</a>
         </li>
         <li>
           <div className='app__navbar-socialmedia'>
@@ -61,10 +61,10 @@ const navbar = () => {
             <a href="/about" className='content-2'>About</a>
           </li>
           <li>
-            <a href="#resume" className='content-2'>Resume</a>
+            <a href="/resume" className='content-2'>Resume</a>
           </li>
           <li>
-            <a href="#contact" className='content-2'>Contact</a>
+            <a href="/contact" className='content-2'>Contact</a>
           </li>
         </ul>
         )}

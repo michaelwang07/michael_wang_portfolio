@@ -1,19 +1,20 @@
 import React from 'react'
 import '../App.css'
 import Navbar from '../components/navbar/navbar'
-import Title from '../components/title/title'
-import About_Me from '../components/about_me/about_me'
 import Footer from '../components/Footer/footer'
+import Title from '../components/title/title'
+import Contact_Me from '../components/contact_me/contact_me'
 
-const About = () => {
+const Contact = () => {
   return (
     <div>
       <Navbar />
-      <Title title="About"/>
-      <About_Me />
+      <Title title="Contact"/>
+      <Contact_Me />
       <Footer />
+      
     </div>
   )
 }
 
-export default About
+export default Contact
