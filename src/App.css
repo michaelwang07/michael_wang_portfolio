@@ -86,6 +86,7 @@ hr:after {
 
 .paragraph-1 {
   font-family: 'Lora', serif;
+  font-weight: 100;
   letter-spacing: 1px;
   font-size: 20px;
   line-height: 28px;
@@ -118,6 +119,26 @@ hr:after {
 @media screen and (min-width: 2000px) {
   .header-1 {
     letter-spacing: 10px;
+  }
+
+  .header-2 {
+    font-size: 75px;
+    line-height: 90px;
+  }
+
+  .paragraph-1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .content-1 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .paragraph-2 {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 

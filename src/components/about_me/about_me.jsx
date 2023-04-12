@@ -1,5 +1,6 @@
 import React from 'react'
 import './about_me.css'
+import graduation from '../../assets/graduation2.jpg'
 
 const about_me = () => {
   return (
@@ -11,6 +12,9 @@ const about_me = () => {
       </div>
       <hr />
       <div className='app__about_me-lower'>
+        <div className='app__about_me-lower_graduation'>
+          <img src={graduation} alt="graduation" />
+        </div>
         <p className='paragraph-2'>
         My Journey in Software Engineering
         <br /><br />

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <Title title="Contact"/>
+      <Title title="Contact Me"/>
       <Contact_Me />
       <Footer />
       

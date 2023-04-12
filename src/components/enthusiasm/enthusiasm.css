@@ -6,7 +6,7 @@
 }
 
 .app__enthusiam-description,
-.app__enthusiam-adaptablility {
+.app__enthusiam-adaptablility_description {
   display: flex;
   flex-direction: column;
   gap: 1rem;
