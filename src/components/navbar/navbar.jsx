@@ -4,7 +4,7 @@ import {HiOutlineMenu, HiOutlineMail} from 'react-icons/hi'
 import {BsLinkedin} from 'react-icons/bs'
 
 const navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(true);
+  const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
     <div className='app__navbar'>
