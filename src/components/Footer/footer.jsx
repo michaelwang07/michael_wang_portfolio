@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsLinkedin} from 'react-icons/bs'
+import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -39,6 +39,11 @@ const Footer = () => {
           <div className='app__footer-bottom_socialmedia_linkedin'>
             <a href="https://www.linkedin.com/in/michael-wang-programming/">
               <BsLinkedin />
+            </a>
+          </div>
+          <div className='app__footer-bottom_socialmedia_github'>
+            <a href="https://github.com/michaelwang07">
+              <BsGithub />
             </a>
           </div>
         </div>
