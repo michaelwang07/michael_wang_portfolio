@@ -62,6 +62,10 @@
   .app__statistics-img_centered{
     font-size: 6rem;
   }
+
+  .app__statistics-img {
+    margin: 6rem 4rem;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -76,10 +80,17 @@
 
 @media screen and (max-width: 750px) {
   .app__statistics-img {
-    margin: 2rem 0;
+    margin: 3rem 0;
   }
 
   .app__statistics-img_centered{
     font-size: 3rem;
   }
+
+  .app__statistics-img h4{
+    font-size: 34px;
+    margin-bottom: 1rem;
+  }
 }
+
+

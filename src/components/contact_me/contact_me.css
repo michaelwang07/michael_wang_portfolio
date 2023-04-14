@@ -1,0 +1,94 @@
+.app__contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.app__contact-info h3 {
+  font-family: "Open Sans";
+  color: var(--color-darkgray);
+  font-size: 38px;
+}
+
+.app__contact-info h4{
+  font-size: 16px;
+  letter-spacing: 0em;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  letter-spacing: .04em;
+  line-height: 46px;
+  text-transform: none;
+  color: #a88d2e;
+  border-bottom: 1px solid #a88d2e;
+}
+
+.app__contact-info_network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.app__contact-info_network a:hover h4{
+  color: var(--color-golden);
+  border-bottom: 1px solid #DCCA87;
+}
+
+.app__contact-description p{
+  padding: 0 4rem;
+  margin-bottom: 6rem;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 34px;
+  letter-spacing: .04em;
+  line-height: 1.6em;
+  text-transform: none;
+  color: #383838;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__contact-description p{
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app__contact-info h3 {
+    font-size: 32px;
+  }
+
+  .app__contact-info h4 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .app__contact-description p{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__contact-info_network {
+    flex-direction: column;
+  }
+
+  .app__contact-description p{
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .app__contact-info h3 {
+    font-size: 28px;
+  }
+
+  .app__contact-info h4 {
+    font-size: 28px;
+    line-height: 32px;
+    word-break: break-word;
+  }
+}
