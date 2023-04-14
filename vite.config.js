@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/michael_wang_portfoilo/',
+  base: '/michael_wang_portfolio/',
   plugins: [react()],
 })
