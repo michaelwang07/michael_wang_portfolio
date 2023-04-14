@@ -101,10 +101,3 @@
     max-width: 90vw;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .app__websites-links h4{
-    font-size: 32px;
-    margin-bottom: 0.8rem;
-  }
-}
